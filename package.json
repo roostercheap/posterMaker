@@ -44,8 +44,9 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.6.10",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "highlight.js": "11.10.0",
+    "mongodb": "^6.11.0",
     "node-fetch": "^3.3.2"
   }
 }

@@ -14,6 +14,7 @@ https://poster-maker-seven.vercel.app/
 5. Provide at least 5 examples of data bound to UI elements.
 6. Provide at least 2 examples of utilizing functions that structure and reshape JSON data retrieved for external sources.
    -in (src/routes/api/sQ) I can get, post, and delete from my sQ.json located (src/data/)
+   -just an update, I switched it to be saved to mongoDB so the OG .json is still there but it is unused
 7. Connect to at least 1 outside API using a mix of SvelteKit loading functions and display retrieved data in your UI.
     -I use to outside APIs, one from API ninjas (random quotes) and the other from Unsplash (random images) --THE UNSPLASH IS A DEMO IT WILL ONLY PRODUCE 50 PICs before crapping out--
 8. Structure, document, and deploy your final project code according to common industry practices.

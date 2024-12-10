@@ -52,11 +52,14 @@
         justify-content: space-between;
         font-size: 14px;
         line-height: 1.4;
+        align-items: center;
     }
   
     .label {
         font-weight: bold;
         color: #5f5f5f;
+        display: inline-block;
+        width: 40%;
     }
   
     .value {
