@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "fetch:pokemon": "node src/routes/api/fetch_pokemon.ts",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
