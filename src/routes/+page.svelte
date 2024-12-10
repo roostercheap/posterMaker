@@ -77,7 +77,7 @@
     gap: 10px;
     margin-top: 20px;
     position: relative;
-    top: -20px; /*push the buttons upward*/
+    top: -20px; /*putt the buttons closer up*/
   }
 
   .generate-btn,
