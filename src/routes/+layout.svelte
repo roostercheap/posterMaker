@@ -52,7 +52,7 @@
 		<a href="/">Generate</a>
 		<a href="/saved">Saved</a>
 		<a class="star-icon" href="/favorites">
-			<img src="src/data/star.png" alt="Favorites" />
+			<img src="/data/star.png" alt="Favorites" />
 		</a>
   </div>
   

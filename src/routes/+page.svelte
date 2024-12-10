@@ -53,7 +53,7 @@
       background-size: cover;
       background-position: center;
       padding: 20px;
-      color: white;
+      color: rgb(238, 238, 238);
       text-shadow: 2px 2px 5px black;
       filter: grayscale(100%);
   }

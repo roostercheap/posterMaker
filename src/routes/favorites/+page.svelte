@@ -5,7 +5,7 @@
     import { onMount, onDestroy } from 'svelte';
   
     onMount(() => {
-      audio = new Audio('/src/data/what.mp3');
+      audio = new Audio('/data/what.mp3');
       audio.loop = false; //no loop on the music
       audio.play();
     });
