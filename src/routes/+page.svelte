@@ -8,34 +8,34 @@
 
   //get random quote
   const fetchQuote = async () => {
-    const response = await fetch('/api/quote');
-    const data = await response.json();
-    quote = data.quote;
-    author = data.author;
+      const response = await fetch('/api/quote');
+      const data = await response.json();
+      quote = data.quote;
+      author = data.author;
 
-    //pull random quote
-    const imageResponse = await fetch('/api/image');
-    const imageData = await imageResponse.json();
-    imageUrl = imageData.imageUrl;
-    imageAlt = imageData.alt;
+      //pull random quote
+      const imageResponse = await fetch('/api/image');
+      const imageData = await imageResponse.json();
+      imageUrl = imageData.imageUrl;
+      imageAlt = imageData.alt;
   };
 
-  //write present quote
+  //write into json present quote
   const saveQuote = async () => {
   if (quote && author && imageUrl) {
-    const response = await fetch('/api/sQ', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ quote, author, imageUrl })
-    });
+      const response = await fetch('/api/sQ', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ quote, author, imageUrl })
+      });
 
     if (response.ok) {
-      alert('Quote saved successfully!');
+        alert('Quote saved.');
     } else {
-      alert('Failed to save the quote.');
+        alert('Quote not saved.');
     }
   } else {
-    alert('No quote to save. Please generate one first.');
+      alert('Please generate a quote sir/madame.');
   }
 };
 </script>
@@ -105,15 +105,15 @@
 </style>
 
 <div class="quote-container" style="background-image: url('{imageUrl}')">
-  {#if quote}
-    <p class="quote-text">"{quote}"</p>
-    <p class="author-text">- {author}</p>
-  {:else}
-    <p class="quote-text">Click the button to generate a quote!</p>
-  {/if}
+    {#if quote}
+        <p class="quote-text">"{quote}"</p>
+        <p class="author-text">- {author}</p>
+    {:else}
+        <p class="quote-text">Click the button to generate a quote!</p>
+    {/if}
 
   <div class="button-container">
-    <button class="generate-btn" on:click={fetchQuote}>Generate Quote</button>
-    <button class="save-btn" on:click={saveQuote}>Save Quote</button>
-  </div>
+        <button class="generate-btn" on:click={fetchQuote}>Generate Quote</button>
+        <button class="save-btn" on:click={saveQuote}>Save Quote</button>
+    </div>
 </div>

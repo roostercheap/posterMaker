@@ -38,8 +38,8 @@
 	}
   
 	.star-icon img {
-		height: 24px;
-		width: 24px;
+		height: 26px;
+		width: 26px;
 		filter: brightness(0) invert(1);
 	}
   
@@ -49,14 +49,14 @@
   </style>
   
   <div class="menu-bar">
-	<a href="/">Generate</a>
-	<a href="/saved">Saved</a>
-	<a class="star-icon" href="/favorites">
-	  <img src="src/data/star.png" alt="Favorites" />
-	</a>
+		<a href="/">Generate</a>
+		<a href="/saved">Saved</a>
+		<a class="star-icon" href="/favorites">
+			<img src="src/data/star.png" alt="Favorites" />
+		</a>
   </div>
   
   <div class="content">
-	<slot />
+		<slot />
   </div>
   
