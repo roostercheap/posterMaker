@@ -1,6 +1,6 @@
 import { json } from '@sveltejs/kit';
 
-const UNSPLASH_ACCESS_KEY = '0TZzK_1f9dv7SwJsehfcqkKVgqJRUh1OyNwNAZRkVW8';
+const UNSPLASH_ACCESS_KEY = 'E4b9yuY3bv03CG8y3h24OUMOyVJxXeunCilDF8oy2S0';
 
 export async function GET() {
   try {

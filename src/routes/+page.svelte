@@ -42,65 +42,65 @@
 
 <style>
   .quote-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    background-color: #f0f0f0;
-    background-image: url({imageUrl});
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    filter: grayscale(100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background-color: #f0f0f0;
+      background-image: url({imageUrl});
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      filter: grayscale(100%);
   }
 
   .quote-text {
-    font-size: 2rem;
-    font-style: italic;
-    margin-bottom: 20px;
-    line-height: 1.6; /*this is the line spacing*/
+      font-size: 2rem;
+      font-style: italic;
+      margin-bottom: 20px;
+      line-height: 1.6; /*this is the line spacing*/
   }
 
   .author-text {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 10px;
-    line-height: 1.4; /*also increase line spacing*/
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 10px;
+      line-height: 1.4; /*also increase line spacing*/
   }
 
   .button-container {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    position: relative;
-    top: -20px; /*putt the buttons closer up*/
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      position: relative;
+      top: -20px; /*putt the buttons closer up*/
   }
 
   .generate-btn,
   .save-btn {
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 12px;
-    background-color: #333;
-    color: white;
-    transition: background-color 0.3s ease;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 12px;
+      background-color: #333;
+      color: white;
+      transition: background-color 0.3s ease;
   }
 
   .generate-btn:hover,
   .save-btn:hover {
-    background-color: #555;
+      background-color: #555;
   }
 
   img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
   }
 </style>
 
