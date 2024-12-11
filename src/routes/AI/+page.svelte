@@ -112,6 +112,11 @@
       cursor: pointer;
       font-weight: bold;
     }
+
+    .bold {
+      font-weight: bold;
+      color: #771e1e;
+    }
   
     button:hover {
       background-color: #c9c2b3;

@@ -43,9 +43,11 @@ export const POST: RequestHandler = async ({ request }) => {
         const data = await apiResponse.json();
         const message = data.choices[0]?.message?.content.trim();
 
-        return json({ message });
+        return new Response(data.choices[0]?.message?.content.trim(), {
+            headers: { 'Content-Type': 'text/plain' },
+        });
     } catch (error) {
         console.error('OpenAI API error:', error);
-        return json({ error: 'Failed to fetch response from OpenAI API' }, { status: 500 });
+        return json({ error: 'Failed to Disrespect (error)' }, { status: 500 });
     }
 };
