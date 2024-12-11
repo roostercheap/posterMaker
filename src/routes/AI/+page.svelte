@@ -141,7 +141,7 @@
           {/if}
           {#each messages as message (message.content)}
           <div class="output-message {message.role}">
-            {message.content}
+            <span class="bold">Dylan:</span> "{message.content}"
           </div>
           {/each}
       </div>
