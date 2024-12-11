@@ -23,3 +23,5 @@ https://poster-maker-seven.vercel.app/
     -I definitely had help but MOSTLY with errors and I pulled from old projects as well
 10. Ensure your app functions properly without errors and exhibits good UI/UX design.
     -Yes...Just don't button mash
+
+    PLEASE DO NOT SPAM THE AI OR GENERATE BUTTON, THERE ARE LIMITED TOKENS FOR THESE THINGS!!!

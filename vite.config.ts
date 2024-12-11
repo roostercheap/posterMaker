@@ -6,6 +6,9 @@ dotenv.config();
 
 export default defineConfig({
   plugins: [sveltekit()],
+  define: {
+    'process.env': process.env,
+  },
   resolve: {
     alias: {
       $data: '/src/data'

@@ -52,6 +52,7 @@
 		<a href="/">Generate</a>
 		<a href="/saved">Saved</a>
 		<a href="/pokemon">Pokemon</a>
+		<a href="/AI">AI</a>
 		<a href="/author">About Me</a>
 		<a class="star-icon" href="/favorites">
 			<img src="/data/star.png" alt="Favorites" />
