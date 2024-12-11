@@ -1,5 +1,6 @@
 Vercel URL
 https://poster-maker-seven.vercel.app/
+WORKS ENTIRELY ON VERCEL, USES OPENAI not OLLAMA
 
 
 1. Effectively use Svelte's components and routing mechanisms to document your various JavaScript/TypeScript skills.
